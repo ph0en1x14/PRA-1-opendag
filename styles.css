@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #00AEEF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+
+    img {
+        height: 50px;
+        width: 143px;
+    }
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main .content {
+    background-color: #b7e5ff70;
+    padding: 20px;
+    padding-left: 290px;
+    min-height: 80vh;
+
+    img {
+        height: 500px;
+        width: 900px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+main {
+
+    background-color: #b7e5ff70;
+}
+
+footer {
+    background-color: #00AEEF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+padding-left: 130px;
+background-color: #b7e5ff8b;
+border: 2px solid #b7e5ff9f;
+height: 240px;
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 180px;
+}}
+
+.three-column-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.column-item {
+    background-color: #f4f4f4;
+    border: 2px solid #ccc;
+    height: 200px;
+}
+
+.main-content-rooster {
+    padding: 20px;
+    padding-left: 290px;
+    min-height: 80vh;
+    background-color: #b7e5ff70;
+
+    img {
+        height: 500px;
+        width: 900px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+.main-content-blokken {
+    padding: 20px;
+    padding-left: 290px;
+    min-height: 80vh;
+    background-color: #b7e5ff70;
+
+    img {
+        height: 500px;
+        width: 900px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
